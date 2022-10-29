@@ -10,9 +10,7 @@ import { SAVE_BOOK } from '../utils/mutations';
 
 const SearchBooks = () => {
 
-  // NEWLY ADDED CODE FOR APOLLO
   const [saveBook, { error, data }] = useMutation(SAVE_BOOK);
-  // APOLLO ADDED CODE END
 
   // create state for holding returned google api data
   const [searchedBooks, setSearchedBooks] = useState([]);

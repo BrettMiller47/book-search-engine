@@ -33,7 +33,7 @@ const SignupForm = () => {
 
     try {
       const response = await addUser({
-        variables: {...formState},
+        variables: {...userFormData},
       });
 
       if (!response.ok) {

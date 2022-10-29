@@ -1,6 +1,0 @@
-ACTION PLAN:
-
-2) CLIENT
-
--- loginForm.js
--- -- replace the loginUser() functionality imported from the API file with the LOGIN_USER mutation functionality

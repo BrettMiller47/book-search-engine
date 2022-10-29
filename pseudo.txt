@@ -1,18 +1,5 @@
 ACTION PLAN:
 
-1) SERVER
--- Setup and Resolvers for:
----- type queries
--- -- -- me: which returns a User type
--- -- type mutations
--- --X-- login: accepts an email and password as parameters; returns an Auth type
--- --X-- addUser: accepts a username, email, and password as parameters; returns an Auth type
--- --X-- saveBook: accepts a book author's array, description, title, bookId, image, and link as parameters; returns a User type
--- --X-- removeBook: accepts a book's bookId as a parameter; returns a User type
--- -- type Auth
--- -- -- token
--- -- -- user (references the User type)
-
 2) CLIENT
 -- queries.js
 -- -- holds the query GET_ME, which will execute the 'me' query set up using Apollo SERVER

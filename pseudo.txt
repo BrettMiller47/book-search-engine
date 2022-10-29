@@ -2,7 +2,5 @@ ACTION PLAN:
 
 2) CLIENT
 
--- signupForm.js
--- -- replace the addUser() functionality imported from the API file with the ADD_USER mutation functionality
 -- loginForm.js
 -- -- replace the loginUser() functionality imported from the API file with the LOGIN_USER mutation functionality

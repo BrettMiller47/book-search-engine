@@ -1,21 +1,8 @@
 ACTION PLAN:
 
 1) SERVER
--- Setup TypeDefs and Resolvers for:
--- -- type Book
--- -- -- bookId (value returned from google's book api)
--- -- -- authors (array of strings)
--- -- -- description
--- -- -- title
--- -- -- image
--- -- -- link
--- -- type User
--- -- -- _id
--- -- -- username
--- -- -- email
--- -- -- bookCount
--- -- -- savedBooks (array)
--- -- type queries
+-- Setup and Resolvers for:
+---- type queries
 -- -- -- me: which returns a User type
 -- -- type mutations
 -- -- -- login: accepts an email and password as parameters; returns an Auth type

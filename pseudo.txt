@@ -2,9 +2,6 @@ ACTION PLAN:
 
 2) CLIENT
 
--- SearchBooks.js
--- -- use the Apollo useMutation() hook to execute the SAVE_BOOK mutation in the handleSaveBook() function instead of the saveBook() function imported from the API file
--- -- make sure to keep the logic for saving the book's ID to state in the try...catch block
 -- SavedBooks.js
 -- -- Remove the useEffect() Hook that sets the state for UserData
 -- -- Instead, use the useQuery() hook to execute the GET_ME query on load and save it to a variable name UserData

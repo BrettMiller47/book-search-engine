@@ -17,5 +17,8 @@
   },
   "engines": {
     "node": "16.17.0"
+  },
+  "dependencies": {
+    "mongoose": "^6.7.0"
   }
 }
